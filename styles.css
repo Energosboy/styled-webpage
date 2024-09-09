@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    }
+/* Изменение цвета фона заголовка на зеленый */
+.header {
+    background-color: #46be2e;
+    color: #ca1130;
+    padding: 10px 0;
+    text-align: center;
+    }
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+.nav__link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    }
+.nav__link:hover {
+    color: rgb(258, 258, 258);
+    }
+.content {
+    padding: 100px;
+    }
+.footer {
+    background-color: #0872d4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    }
+/* Добавление двух разделов */
+.nav__link::after {
+    content: '';
+    color: #000;
+}
+.review ul {
+    list-style-type: none;
+    padding: 0;
+    }
+.review__link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    }
+.review__link:hover {
+    color: #1f4ac0;
+    }
